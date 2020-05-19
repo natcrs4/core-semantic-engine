@@ -25,7 +25,7 @@ public interface SemEngineConfig extends Config {
 	@Key("sem.engine.port")
 	public String port();
 	
-   @DefaultValue("semantic-engine")	
+   @DefaultValue("fast-semantic-engine")	
 	@Key("sem.engine.application.name")
 	public String applicationame();
 

@@ -300,7 +300,9 @@ public class NewDocumentService extends HibernateService{
 			//fullTextQuery.setCriteriaQuery(criteria);
             
 			// execute search
+		
 			result = fullTextQuery.list();
+		
 			     if(links)
 					 for(  NewDocument doc:result)
 					 { 

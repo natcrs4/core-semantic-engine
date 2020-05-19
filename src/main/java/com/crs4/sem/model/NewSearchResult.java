@@ -2,8 +2,6 @@ package com.crs4.sem.model;
 
 import java.util.List;
 
-import com.crs4.sem.model.SearchResult.SearchResultBuilder;
-
 import lombok.Builder;
 import lombok.Data;
 

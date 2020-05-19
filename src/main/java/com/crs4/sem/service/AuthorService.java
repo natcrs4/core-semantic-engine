@@ -35,8 +35,10 @@ import com.crs4.sem.model.NewDocument;
 import com.crs4.sem.model.SearchResult;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+
 public class AuthorService extends HibernateService {
 	
 	public static AuthorService instance;
